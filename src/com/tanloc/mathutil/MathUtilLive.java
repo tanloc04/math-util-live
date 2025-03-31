@@ -22,7 +22,7 @@ public class MathUtilLive {
         System.out.println("expected: 6! = 720, actual: " + result);
         System.out.println("expected: 0! = 1, actual: " + MathUtil.getFactorial(0));
         //thêm code sau lần đầu tiên làm chuyện ấy - code lên server 23:41 pm
-        System.out.println("expected: 3! = 6, actual: " + MathUtil.getFactorial(3));
+        System.out.println("expected: 1! = 1, actual: " + MathUtil.getFactorial(1));
         //kĩ thuật kiểm thử phần mềm: ước lượng xem giá trị trả về của hàm là gì
         //hàm ngon trong tình huống expected === actual
     }
